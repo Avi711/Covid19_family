@@ -1,3 +1,10 @@
+/****************
+* Avraham sikirov
+* 318731478
+* 01
+* ex6
+***************/
+
 #ifndef _QUEUE_H
 #define _QUEUE_H
 
@@ -10,7 +17,7 @@ typedef struct QNode {
 // The queue, front stores the front node of LL and rear stores the 
 // last node of LL 
 typedef struct Queue {
-	struct QNode *front, *rear;
+	struct QNode* front, * rear;
 }Queue;
 
 
